@@ -4,6 +4,8 @@ import type { NextConfig } from "next";
 const projectRoot = process.cwd();
 
 const nextConfig: NextConfig = {
+  output: "export",
+  images: { unoptimized: true },
   turbopack: {
     root: projectRoot,
   },

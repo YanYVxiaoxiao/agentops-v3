@@ -42,3 +42,8 @@ next-env.d.ts
 
 # design-skill cache
 .impeccable/
+
+.vercel
+
+# Local Netlify folder
+.netlify
